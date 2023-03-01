@@ -1,0 +1,32 @@
+.example-custom-date-class {
+  width: 40px;
+  height: 60px;
+}
+
+.example-custom-date-class:after {
+  counter-increment: section;
+  content: attr(aria-label);
+  position: absolute;
+  left: 0;
+  top: 34px;
+  width: 40px;
+  text-align: center;
+  color: #000000;
+  font-size: 14px;
+  z-index: 1;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+select {
+  width: 130px;
+  height: 40px;
+
+}
